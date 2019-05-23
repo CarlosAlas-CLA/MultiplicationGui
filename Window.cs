@@ -42,8 +42,8 @@ namespace Project1
             void onClickbutton2(object sender, EventArgs e)
             {//Variables
                 double num = 0, num1 = 0,num2=0;
-                //Convert string to int
-                num =  Convert.ToInt16( textBox1.Text);
+                //Convert string to double and int
+                 num = double.Parse(textBox1.Text);
                 num1 = Convert.ToInt16(textBox2.Text);
                 //Multiplication
                 num2 = num * num1;
