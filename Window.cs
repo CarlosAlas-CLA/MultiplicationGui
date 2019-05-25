@@ -21,7 +21,7 @@ namespace Project1
             button1.Location = new Point(20,20);
             Button button2 = new Button();
             button2.Location = new Point(button1.Right ,20);
-            button1.Text = "Enter";
+            button1.Text = "Clear";
             button2.Text = "Multiply";
             TextBox textBox1 = new TextBox();
             TextBox textBox2 = new TextBox();
