@@ -11,7 +11,7 @@ namespace Project1
 
         { //Class instance
             Window window = new Window();
-            //Class method
+            
             window.OpenWindow();
          
                 Console.ReadKey();
